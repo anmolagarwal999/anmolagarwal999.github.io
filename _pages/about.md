@@ -2,25 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Research Fellow at Microsoft Research India
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: anmol_01_cropped.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
+    <!-- <p>545 your office number</p>
     <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Your City, State 12345</p> -->
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Random text 1. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there! I'm Anmol. I am currently working as a Research Fellow at [Microsoft Research India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/). I graduated from International Institute of Information Technology, Hyderabad in 2023 with a B.Tech in Computer Science and Engineering.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently, I am a part of the AI4Code group at MSR India. At IIIT Hyderabad, I was an undergraduate research student at [Precog](https://precog.iiit.ac.in/) IIIT-H, advised by [Prof. Ponnurangam Kumaraguru](https://www.iiit.ac.in/people/faculty/PKguru/), where I worked primarily on problems in Information Retrieval and Natural Language Processing. At the [Robotics Research Center](https://robotics.iiit.ac.in/) at IIIT-H, I worked on infusing instance-level information in semantic maps for Visual-Language Robot Navigation tasks.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I believe the most impactful research questions are derived from real world problems. Hence, I wish to apply my engineering and research skills to tackle the world's most complex technology challenges.
