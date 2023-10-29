@@ -3,183 +3,108 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
+
+@article{gaied_anmol,
+      bibtex_show={true},
+        dimensions={true},
+        selected={true},
+        title={ChaTA: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source LLMs}, 
+        journal = {GAIED, NeurIPS},
+        author={Anmol Agarwal*, Qianou Ma*, Yann Hicke*, Paul Denny},
+        year={2023},
+        eprint={2305.12363},
+        archivePrefix={arXiv},
+        primaryClass={cs.RO}
+}
+
+@inproceedings{clpsych_anmol,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+    dimensions={true},
+    selected={true},
+    preview={wave-mechanics.gif},
+    title = "Learning to Automate Follow-up Question Generation using Process Knowledge for Depression Triage on {R}eddit Posts",
+    author = "Agarwal*, Anmol  and
+    Gupta*, Shrey and
+      Gaur, Manas  and
+      Roy, Kaushik  and
+      Narayanan, Vignesh  and
+      Kumaraguru, Ponnurangam  and
+      Sheth, Amit",
+    booktitle = "Proceedings of the Eighth Workshop on Computational Linguistics and Clinical Psychology, NAACL",
+    month = jul,
+    year = "2022",
+    address = "Seattle, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.clpsych-1.12",
+    doi = "10.18653/v1/2022.clpsych-1.12",
+    pages = "137--147",
+    abstract = "Conversational Agents (CAs) powered with deep language models (DLMs) have shown tremendous promise in the domain of mental health. Prominently, the CAs have been used to provide informational or therapeutic services (e.g., cognitive behavioral therapy) to patients. However, the utility of CAs to assist in mental health triaging has not been explored in the existing work as it requires a controlled generation of follow-up questions (FQs), which are often initiated and guided by the mental health professionals (MHPs) in clinical settings. In the context of {`}depression{'}, our experiments show that DLMs coupled with process knowledge in a mental health questionnaire generate 12.54{\%} and 9.37{\%} better FQs based on similarity and longest common subsequence matches to questions in the PHQ-9 dataset respectively, when compared with DLMs without process knowledge support. Despite coupling with process knowledge, we find that DLMs are still prone to hallucination, i.e., generating redundant, irrelevant, and unsafe FQs. We demonstrate the challenge of using existing datasets to train a DLM for generating FQs that adhere to clinical process knowledge. To address this limitation, we prepared an extended PHQ-9 based dataset, PRIMATE, in collaboration with MHPs. PRIMATE contains annotations regarding whether a particular question in the PHQ-9 dataset has already been answered in the user{'}s initial description of the mental health condition. We used PRIMATE to train a DLM in a supervised setting to identify which of the PHQ-9 questions can be answered directly from the user{'}s post and which ones would require more information from the user. Using performance analysis based on MCC scores, we show that PRIMATE is appropriate for identifying questions in PHQ-9 that could guide generative DLMs towards controlled FQ generation (with minimal hallucination) suitable for aiding triaging. The dataset created as a part of this research can be obtained from \url{https://github.com/primate-mh/Primate2022}"
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+
+
+
+
+@inproceedings{anmol_ecir,
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+        dimensions={true},
+        selected={true},
+  author = {Agarwal*, Anmol and Gupta*, Shrey and Bonagiri, Vamshi and Gaur, Manas and Reagle, Joseph and Kumaraguru, Ponnurangam},
+  title = {Towards Effective Paraphrasing For&nbsp;Information Disguise},
+  year = {2023},
+  isbn = {978-3-031-28237-9},
+  publisher = {Springer-Verlag},
+  address = {Berlin, Heidelberg},
+  url = {https://doi.org/10.1007/978-3-031-28238-6_22},
+  doi = {10.1007/978-3-031-28238-6_22},
+  abstract = {Information Disguise (ID), a part of computational ethics in Natural Language Processing (NLP), is concerned with best practices of textual paraphrasing to prevent the non-consensual use of authors’ posts on the Internet. Research on ID becomes important when authors’ written online communication pertains to sensitive domains, e.g., mental health. Over time, researchers have utilized AI-based automated word spinners (e.g., SpinRewriter, WordAI) for paraphrasing content. However, these tools fail to satisfy the purpose of ID as their paraphrased content still leads to the source when queried on search engines. There is limited prior work on judging the effectiveness of paraphrasing methods for ID on search engines or their proxies, neural retriever (NeurIR) models. We propose a framework where, for a given sentence from an author’s post, we perform iterative perturbation on the sentence in the direction of paraphrasing with an attempt to confuse the search mechanism of a NeurIR system when the sentence is queried on it. Our experiments involve the subreddit “r/AmItheAsshole” as the source of public content and Dense Passage Retriever as a NeurIR system-based proxy for search engines. Our work introduces a novel method of phrase-importance rankings using perplexity scores and involves multi-level phrase substitutions via beam search. Our multi-phrase substitution scheme succeeds in disguising sentences 82\ of the time and hence takes an essential step towards enabling researchers to disguise sensitive content effectively before making it public. We also release the code of our approach. ()},
+  booktitle = {Advances in Information Retrieval: 45th European Conference on Information Retrieval, ECIR 2023, Dublin, Ireland, April 2–6, 2023, Proceedings, Part II},
+  pages = {331–340},
+  numpages = {10},
+  keywords = {Information disguise, Adversarial retrieval, Computational ethics, Paraphrasing, Neural information retrieval},
+  location = {Dublin, Ireland}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true}
-}
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
-
- @inproceedings{clpsych_anmol,
-   bibtex_show={true},
-     dimensions={true},
-     selected={true},
-     preview={wave-mechanics.gif},
-     title = "Learning to Automate Follow-up Question Generation using Process Knowledge for Depression Triage on {R}eddit Posts",
-     author = "Agarwal*, Anmol  and
-     Gupta*, Shrey and
-       Gaur, Manas  and
-       Roy, Kaushik  and
-       Narayanan, Vignesh  and
-       Kumaraguru, Ponnurangam  and
-       Sheth, Amit",
-     booktitle = "Proceedings of the Eighth Workshop on Computational Linguistics and Clinical Psychology, NAACL",
-     month = jul,
-     year = "2022",
-     address = "Seattle, USA",
-     publisher = "Association for Computational Linguistics",
-     url = "https://aclanthology.org/2022.clpsych-1.12",
-     doi = "10.18653/v1/2022.clpsych-1.12",
-     pages = "137--147",
-     abstract = "Conversational Agents (CAs) powered with deep language models (DLMs) have shown tremendous promise in the domain of mental health. Prominently, the CAs have been used to provide informational or therapeutic services (e.g., cognitive behavioral therapy) to patients. However, the utility of CAs to assist in mental health triaging has not been explored in the existing work as it requires a controlled generation of follow-up questions (FQs), which are often initiated and guided by the mental health professionals (MHPs) in clinical settings. In the context of {`}depression{'}, our experiments show that DLMs coupled with process knowledge in a mental health questionnaire generate 12.54{\%} and 9.37{\%} better FQs based on similarity and longest common subsequence matches to questions in the PHQ-9 dataset respectively, when compared with DLMs without process knowledge support. Despite coupling with process knowledge, we find that DLMs are still prone to hallucination, i.e., generating redundant, irrelevant, and unsafe FQs. We demonstrate the challenge of using existing datasets to train a DLM for generating FQs that adhere to clinical process knowledge. To address this limitation, we prepared an extended PHQ-9 based dataset, PRIMATE, in collaboration with MHPs. PRIMATE contains annotations regarding whether a particular question in the PHQ-9 dataset has already been answered in the user{'}s initial description of the mental health condition. We used PRIMATE to train a DLM in a supervised setting to identify which of the PHQ-9 questions can be answered directly from the user{'}s post and which ones would require more information from the user. Using performance analysis based on MCC scores, we show that PRIMATE is appropriate for identifying questions in PHQ-9 that could guide generative DLMs towards controlled FQ generation (with minimal hallucination) suitable for aiding triaging. The dataset created as a part of this research can be obtained from \url{https://github.com/primate-mh/Primate2022}"
- }
-
-
- @article{gaied_anmol,
-        bibtex_show={true},
-         dimensions={true},
-         selected={true},
-         title={ChaTA: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source LLMs}, 
-         journal = {GAIED, NeurIPS, 2023},
-         author={Anmol Agarwal*, Qianou Ma*, Yann Hicke*, Paul Denny},
-         year={2023},
-         eprint={2305.12363},
-         archivePrefix={arXiv},
-         primaryClass={cs.RO}
-   }
-
- @inproceedings{anmol_ecir,
-   bibtex_show={true},
-         dimensions={true},
-         selected={true},
-   author = {Agarwal*, Anmol and Gupta*, Shrey and Bonagiri, Vamshi and Gaur, Manas and Reagle, Joseph and Kumaraguru, Ponnurangam},
-   title = {Towards Effective Paraphrasing For&nbsp;Information Disguise},
-   year = {2023},
-   isbn = {978-3-031-28237-9},
-   publisher = {Springer-Verlag},
-   address = {Berlin, Heidelberg},
-   url = {https://doi.org/10.1007/978-3-031-28238-6_22},
-   doi = {10.1007/978-3-031-28238-6_22},
-   abstract = {Information Disguise (ID), a part of computational ethics in Natural Language Processing (NLP), is concerned with best practices of textual paraphrasing to prevent the non-consensual use of authors’ posts on the Internet. Research on ID becomes important when authors’ written online communication pertains to sensitive domains, e.g., mental health. Over time, researchers have utilized AI-based automated word spinners (e.g., SpinRewriter, WordAI) for paraphrasing content. However, these tools fail to satisfy the purpose of ID as their paraphrased content still leads to the source when queried on search engines. There is limited prior work on judging the effectiveness of paraphrasing methods for ID on search engines or their proxies, neural retriever (NeurIR) models. We propose a framework where, for a given sentence from an author’s post, we perform iterative perturbation on the sentence in the direction of paraphrasing with an attempt to confuse the search mechanism of a NeurIR system when the sentence is queried on it. Our experiments involve the subreddit “r/AmItheAsshole” as the source of public content and Dense Passage Retriever as a NeurIR system-based proxy for search engines. Our work introduces a novel method of phrase-importance rankings using perplexity scores and involves multi-level phrase substitutions via beam search. Our multi-phrase substitution scheme succeeds in disguising sentences 82\ of the time and hence takes an essential step towards enabling researchers to disguise sensitive content effectively before making it public. We also release the code of our approach. ()},
-   booktitle = {Advances in Information Retrieval: 45th European Conference on Information Retrieval, ECIR 2023, Dublin, Ireland, April 2–6, 2023, Proceedings, Part II},
-   pages = {331–340},
-   numpages = {10},
-   keywords = {Information disguise, Adversarial retrieval, Computational ethics, Paraphrasing, Neural information retrieval},
-   location = {Dublin, Ireland}
-   }
-
-
-   @article{roman_anmol,
-       bibtex_show={true},
-       dimensions={true},
-       selected={true},
-       title={Instance-Level Semantic Maps for Vision Language Navigation}, 
-       publisher = "IEEE ROMAN 2023",
-       journal = {IEEE ROMAN 2023},
-       author={Laksh Nanwani and Anmol Agarwal and Kanishk Jain and Raghav Prabhakar and Aaron Monis and Aditya Mathur and Krishna Murthy and Abdul Hafez and Vineet Gandhi and K. Madhava Krishna},
-       year={2023},
-       eprint={2305.12363},
-       archivePrefix={arXiv},
-       primaryClass={cs.RO}
- }
-
-
- @article{ictd_2022,
+@article{roman_anmol,
     bibtex_show={true},
     dimensions={true},
     selected={true},
-    author       = {Ashwin Singh and
-                    Mallika Subramanian and
-                    Anmol Agarwal and
-                    Pratyush Priyadarshi and
-                    Shrey Gupta and
-                    Kiran Garimella and
-                    Sanjeev Kumar and
-                    Ritesh Kumar and
-                    Lokesh Garg and
-                    Erica Arya and
-                    Ponnurangam Kumaraguru},
-    title        = {Diagnosing Web Data of ICTs to Provide Focused Assistance in Agricultural
-                    Adoptions},
-    journal      = {ICTD 2022},
-    volume       = {abs/2111.00052},
-    year         = {2021},
-    url          = {https://arxiv.org/abs/2111.00052},
-    eprinttype    = {arXiv},
-    eprint       = {2111.00052},
-    timestamp    = {Fri, 05 Nov 2021 15:25:54 +0100},
-    biburl       = {https://dblp.org/rec/journals/corr/abs-2111-00052.bib},
-    bibsource    = {dblp computer science bibliography, https://dblp.org}
-  }
+    title={Instance-Level Semantic Maps for Vision Language Navigation}, 
+    publisher = "IEEE ROMAN 2023",
+    journal = {IEEE ROMAN 2023},
+    author={Laksh Nanwani and Anmol Agarwal and Kanishk Jain and Raghav Prabhakar and Aaron Monis and Aditya Mathur and Krishna Murthy and Abdul Hafez and Vineet Gandhi and K. Madhava Krishna},
+    year={2023},
+    eprint={2305.12363},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO}
+}
+
+
+@article{ictd_2022,
+  bibtex_show={true},
+  dimensions={true},
+  selected={true},
+  author       = {Ashwin Singh and
+                  Mallika Subramanian and
+                  Anmol Agarwal and
+                  Pratyush Priyadarshi and
+                  Shrey Gupta and
+                  Kiran Garimella and
+                  Sanjeev Kumar and
+                  Ritesh Kumar and
+                  Lokesh Garg and
+                  Erica Arya and
+                  Ponnurangam Kumaraguru},
+  title        = {Diagnosing Web Data of ICTs to Provide Focused Assistance in Agricultural
+                  Adoptions},
+  journal      = {ICTD 2022},
+  volume       = {abs/2111.00052},
+  year         = {2021},
+  url          = {https://arxiv.org/abs/2111.00052},
+  eprinttype    = {arXiv},
+  eprint       = {2111.00052},
+  timestamp    = {Fri, 05 Nov 2021 15:25:54 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2111-00052.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
