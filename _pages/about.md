@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: Research Fellow at Microsoft Research India
+subtitle: 
 
 profile:
   align: right

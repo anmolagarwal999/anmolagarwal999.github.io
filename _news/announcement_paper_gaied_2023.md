@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work proposing a pipeline to use LLM-based Teaching Assistants in educational course-based setting accepted at [GAIED](https://gaied.org/neurips2023/), NeurIPS'23.
+Our work on developing LLM-based Teaching Assistants for educational course-based settings, accepted at **[GAIED](https://gaied.org/neurips2023/), NeurIPS'23**.

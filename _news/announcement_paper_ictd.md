@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Paper](https://dl.acm.org/doi/10.1145/3572334.3572400) to improve adoption rates of agricultural practices among smallholder farmers accepted at [ICTD'22](https://ictd.org/).
+Our [work](https://dl.acm.org/doi/10.1145/3572334.3572400) on proposing ways to improve adoption rates of agricultural practices among smallholder farmers, accepted at **[ICTD'22](https://ictd.org/)**.

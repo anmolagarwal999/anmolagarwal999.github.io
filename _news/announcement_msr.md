@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined as Research Fellow at Microsoft Research India.
+Joined as Research Fellow at *Microsoft Research India* !

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Selected to attend [Research Week with Google (2023)](https://sites.google.com/view/researchweek2023/home) at Bangalore, India in the Natural Language Understanding track.
+Selected to attend [Research Week with Google](https://sites.google.com/view/researchweek2023/home) at Bangalore in the Natural Language Understanding track.
